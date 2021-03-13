@@ -105,3 +105,6 @@ dist
 
 # disable yarn.lock
 yarn.lock
+
+.docusaurus/
+build/
