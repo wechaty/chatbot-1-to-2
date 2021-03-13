@@ -37,7 +37,7 @@ jobs:
       - name: Release to GitHub Pages
         env:
           USE_SSH: true
-          GIT_USER: git
+          GIT_USER: wj-Mcat
         run: |
           git config --global user.email "1435130236@qq.com"
           git config --global user.name "wj-Mcat"
