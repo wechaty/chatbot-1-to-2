@@ -15,8 +15,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'wj-Mcat', // Usually your GitHub org/user name.
+  projectName: 'chatbot-1-to-2', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: 'My Facebook Project',
