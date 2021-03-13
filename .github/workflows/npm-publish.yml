@@ -39,21 +39,7 @@ jobs:
         git reset --hard
         git commit --allow-empty -m "Orphan init"
         git checkout master
-    - name: Install dependencies
+    - name: Install dependencies & Build all things
       run: |
         make install
-    - name: Bind git worktree with new-gh-pages folder and gh-pages branch
-      run: |
-        rm -fr new-gh-pages
-        git worktree add new-gh-pages gh-pages
-    - name: Deploy new-gh-pages
-      run: |
-        pushd new-gh-pages
-        git add --all
-        git push -f origin gh-pages
-        popd
-    - name: Unbind new-gh-pages folder from gh-pages branch
-      run: |
-        git worktree remove new-gh-pages
-        git branch -D gh-pages
-        rm -fr new-gh-pages
+        make deploy
