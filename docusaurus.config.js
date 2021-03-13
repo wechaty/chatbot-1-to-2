@@ -8,9 +8,9 @@
  */
 
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'Chatbot 1 to 2',
+  tagline: 'chatbot, wechaty, nlp',
+  url: 'https://wj-mcat.github.io/chatbot-1-to-2/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -19,23 +19,16 @@ module.exports = {
   projectName: 'chatbot-1-to-2', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Facebook Project',
+      title: 'Chapters of Chatbot 1 to 2',
       logo: {
-        alt: 'My Facebook Project Logo',
+        alt: 'cahtbot logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/chatbot-1-to-2/',
           activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
-        },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        // Please keep GitHub link to the right for consistency.
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
+          label: 'Chapters',
           position: 'right',
         },
       ],
@@ -73,7 +66,7 @@ module.exports = {
             },
           ],
         },
-        {
+        { 
           title: 'More',
           items: [
             {

@@ -1,15 +1,37 @@
-/**
- * Copyright (c) Facebook, Inc. and its affiliates.
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- *
- * @format
- */
-
 module.exports = {
-  someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
-  },
-};
+  docs: [
+    'README',
+    {
+      type: 'category',
+      label: '基础篇',
+      items: [
+        'basic/typescript',
+        'basic/basic-wechaty',
+        'basic/seven-lines-code-chatbot',
+        'basic/ding-dong-bot',
+      ],
+    },
+    {
+      type: 'category',
+      label: '应用篇',
+      items: [
+        'applications/1.words-per-day',
+        'applications/2.contact-and-room-management',
+        'applications/3.group-chatbot',
+        'applications/4.group-qa-chatbot',
+      ],
+    },
+    {
+      type: 'category',
+      label: '进阶篇',
+      items: [
+        'advanced/1.multi-languages',
+        'advanced/2.multi-platform',
+        'advanced/3.multi-plugins',
+        'advanced/4.deployment',
+        'advanced/5.wechaty-with-ai',
+        'advanced/6.story-of-open-source',
+      ],
+    },
+  ],
+}

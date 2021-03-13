@@ -17,6 +17,8 @@
   },
   "dependencies": {
     "@docusaurus/core": "2.0.0-alpha.70",
+    "@docusaurus/plugin-content-blog": "^2.0.0-alpha.71",
+    "@docusaurus/plugin-content-pages": "^2.0.0-alpha.71",
     "@docusaurus/preset-classic": "2.0.0-alpha.70",
     "@mdx-js/react": "^1.6.21",
     "clsx": "^1.1.1",
