@@ -17,6 +17,10 @@ sidebar_label: Wechaty 基础
 
 ## Wechaty 基础
 
+Wechaty是一个跨语言跨平台的对话机器人开发工具包(Conversational AI SDK)，支持使用不同编程语言（TypeScript、Python、Java、Go等）使用一套代码开发不同平台（钉钉、飞书、WhatsApp、Teams等）的聊天机器人。那Wechaty给开发者提供了哪些功能接口？是如何支持多语言开发？以及让多种不同语言的Wechaty能够工作到一起的呢？
+
+这一切都要从Wechaty是什么开始将起。
+
 ### Wechaty 是什么？
 
 Conversational RPA SDK Wechaty 是一个开源聊天机器人框架SDK，于 2016 年发布于 GitHub，是一个基于 Apache-2.0 许可证的开源项目，具有高度封装、高可用的特性，支持 NodeJs, Python, Go 和 Java 等多语言版本。
@@ -75,4 +79,17 @@ Wechaty 支持的功能包括：接收消息，发送消息、添加好友、为
 
 通过上图可以得知，整个Wechaty结构是分为四个部分：Wechaty上层接口层、Wechaty Puppet Service 服务层、Wechaty Puppet Abstract 抽象层以及 各种Puppet协议层。
 
-其中Wechaty属于上层接口，主要是面向开发者，提供了非常人性化的接口以及多种语法糖，能够很快的上手各种定制化功能的开发，而且每个模块的相似功能的接口名称都很类似，大大减小了不同模块的难度，
+其中Wechaty属于上层接口，主要是面向开发者，提供了非常人性化的接口以及多种语法糖，能够很快的上手各种定制化功能的开发，而且每个模块的相似功能的接口名称都很类似，大大减小了不同模块之间的学习难度。比如向联系人和群聊中发送文本消息的代码非常类似：
+
+```typescript
+let msg: string = 'hello world'
+
+// 某个联系人对象
+await contact.say(msg)
+// 某个群聊对象
+await room.say(msg)
+```
+
+以上代码以TypeScript语言为例，给大家演示了Wechaty提供给开发者的其中一个接口，还有很多类似的功能非常强大的接口等待着大家去发掘。
+
+而除了TypeScript和JavaScript语言版本的Wechaty之外，还有多种不同语言的Wechaty上层接口，  
