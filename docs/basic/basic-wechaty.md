@@ -119,3 +119,37 @@ TODO: 图一  后续时需要再进行更改的。
 根据图一即可看出，多语言下的Wechaty是依赖Wechaty Puppet Service的，因为此层才是最终和对应IM平台对接数据的层。比如要使用Wechaty编写基于钉钉平台的机器人，此时最上层使用哪种语言的Wechaty都无所谓，不过都会使用一个底层Pupppet Service：`wechaty-puppet-dingtalk`。
 
 这个Service将会以gRPC的方式来暴露服务，给不同语言Wechaty来调用，此时就屏蔽了不同语言下的实现区别，减少了底层服务的开发和维护的工作量。否则不同语言下的Wechaty都会实现一套底层的协议Puppet，一方面工作量非常打，另一方面无法保证所有语言的实现都能够保持一致。
+
+可是当要开发一个新版本的底层IM平台协议时，为了保证不同协议对上层提供统一的服务，此时需要有一个抽象接口层来保证所有协议对外的一致性，这层便是Wechaty中一个非常重要的Puppet抽象曾。
+
+#### Wechaty Puppet Abstract
+
+此抽象层主要是为了解决上层Wechaty的依赖性问题，比如说给某个联系人发消息这个功能是需要调用底层Puppet的多个不同的功能从而实现，其中可能包括发送文字消息，图片消息，语音消息，富文本消息等，然而此时底层会有多种不同协议Puppet，其中包括面向钉钉平台的Puppet、面向飞书平台的Puppet以及面向其他平台的Puppet，而具体使用哪一种协议由用户在实际的开发中决定。
+
+可是在项目定义层，是不需要依赖于某个具体的协议，而是基于抽象接口开发即可，这样便屏蔽了不同IM平台底层实现的细节区别，让所有平台的对话操作统一于标准的接口之上。
+
+再次先使用一个基础的代码来演示这个过程：
+
+```typescript
+import {WechatyPuppet} from 'wechaty-puppet';
+import {Wechaty} from 'wechaty';
+
+puppet = WechatyPuppet()
+bot = Wechaty(puppet)
+```
+
+此时的`WechatyPuppet`实际上只是一个没有任何底层具体实现的抽象层模块，而具体的puppet实现是在运行时决定的，这也是软件设计中减少模块之间的耦合性最常用的方法之一。
+
+可是在实际的代码编写时，需要指定某一个具体的协议，例如在以下代码中使用了面向钉钉平台的底层Puppet：
+
+```typescript
+import {PuppetDing} from 'wechaty-puppet-dingtalk';
+import {Wechaty} from 'wechaty';
+
+puppet = PuppetDing()
+bot = Wechaty(puppet)
+```
+
+在以上代码中，`PuppetDing`就是在运行时指定的协议Puppet，所以能够运行在顶顶平台上。如果将`PupppetDing`换成`PuppetLark`即可让机器人运行在飞书的平台上。
+
+此类设计时软件开发中常见的设计方法，相信很多有一定经验的开发者看到这里会非常熟悉，也希望初级开发者能够在实际的项目开发中多多考虑系统的设计，尽量实现高内聚，低耦合，将不同功能模块给抽离出来，这样系统在重用性和可维护性上会有一定的提升。
