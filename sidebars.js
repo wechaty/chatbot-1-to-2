@@ -5,12 +5,7 @@ module.exports = {
       type: 'category',
       label: '基础篇',
       items: [
-        {
-          Typescript: [
-            'basic/typescript/introduction',
-            'basic/typescript/installation'
-          ], 
-        },
+        'basic/typescript',
         'basic/basic-wechaty',
         'basic/seven-lines-code-chatbot',
         'basic/ding-dong-bot',

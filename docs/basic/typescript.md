@@ -1,5 +1,5 @@
 ---
-id: introduction
+id: typescript
 title: Typescript 基础
 sidebar_label: Typescript 基础
 ---

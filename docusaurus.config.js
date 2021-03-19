@@ -11,8 +11,9 @@ module.exports = {
   title: 'Chatbot 1 to 2',
   tagline: 'chatbot, wechaty, nlp',
   url: 'https://wechaty.github.io/chatbot-1-to-2/',
-  baseUrl: '/chatbot-1-to-2/',
-  onBrokenLinks: 'throw',
+  // baseUrl: '/chatbot-1-to-2/',
+  baseUrl: '/',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'wj-Mcat', // Usually your GitHub org/user name.
