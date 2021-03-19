@@ -10,8 +10,8 @@
 module.exports = {
   title: 'Chatbot 1 to 2',
   tagline: 'chatbot, wechaty, nlp',
-  url: 'https://wj-mcat.github.io/chatbot-1-to-2/',
-  baseUrl: '/',
+  url: 'https://wechaty.github.io/chatbot-1-to-2/',
+  baseUrl: '/chatbot-1-to-2/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
