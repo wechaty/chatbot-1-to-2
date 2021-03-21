@@ -14,8 +14,8 @@ module.exports = {
   baseUrl: '/chatbot-1-to-2/',
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'wj-Mcat', // Usually your GitHub org/user name.
+  favicon: 'img/favicon.ico', 
+  organizationName: 'wechaty', // Usually your GitHub org/user name.
   projectName: 'chatbot-1-to-2', // Usually your repo name.
   themeConfig: {
     navbar: {
