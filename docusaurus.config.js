@@ -15,7 +15,7 @@ module.exports = {
   onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'wj-Mcat', // Usually your GitHub org/user name.
+  organizationName: 'wechaty', // Usually your GitHub org/user name.
   projectName: 'chatbot-1-to-2', // Usually your repo name.
   themeConfig: {
     navbar: {
