@@ -9,6 +9,7 @@ module.exports = {
         'basic/basic-wechaty',
         'basic/seven-lines-code-chatbot',
         'basic/ding-dong-bot',
+        'basic/dive-into-wechaty',
       ],
     },
     {
