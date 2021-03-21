@@ -1,12 +1,12 @@
 ---
 id: typescript
-title: Typescript 基础
-sidebar_label: Typescript 基础
+title: TypeScript 基础
+sidebar_label: TypeScript 基础
 ---
 
 :::tip 本章知识点
 
-* Typescript基础
+* TypeScript基础
   * 概念
   * 安装
 * TypeScript基本用法

@@ -11,6 +11,7 @@ sidebar_label: 目录
   - [未来的人机交互](#a)
 - **基础**
   - [TypeScript基础](basic/typescript.md)
+    - [TypeScript]
   - [Wechaty基础](basic/basic-wechaty.md)
   - [七行代码机器人](basic/seven-lines-code-chatbot.md)
   - [叮咚机器人](basic/ding-dong-bot.md)
