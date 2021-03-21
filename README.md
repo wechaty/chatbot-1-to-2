@@ -40,7 +40,7 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 > (基础篇尽量让大家超最简单的代码能跑起来，为最高水准。比如成功完成 wechaty-getting-started ）
 
-#### Typescript 基础
+#### TypeScript 基础
 
 - 语法基础
 - NPM的使用

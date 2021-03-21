@@ -1,12 +1,12 @@
 ---
-id: introduction
-title: Typescript 基础
-sidebar_label: Typescript 基础
+id: typescript
+title: TypeScript 基础
+sidebar_label: TypeScript 基础
 ---
 
-:::tip 本章重点
+:::tip 本章知识点
 
-* Typescript基础
+* TypeScript基础
   * 概念
   * 安装
 * TypeScript基本用法
@@ -17,7 +17,6 @@ sidebar_label: Typescript 基础
 * 异步编程
 
 :::
-
 
 :::note 本章目标
 
@@ -50,7 +49,7 @@ TypeScript 是一种给 JavaScript 添加特性的语言扩展。增加的功能
 * 泛型编程
 * 名字空间
 * 元组
-* Await
+* Awai
 
 ## 二、安装
 
