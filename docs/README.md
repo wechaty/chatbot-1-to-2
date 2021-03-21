@@ -7,13 +7,14 @@ sidebar_label: 目录
 ## Table of Contents
 
 - **前言**
-  - [basic](#11-i-can-not-login-with-my-wechat-account)
-  - [Introduction of Chatbot](#a)
+  - [聊天机器人介绍](#11-i-can-not-login-with-my-wechat-account)
+  - [聊天机器人的介绍](#a)
 - **基础**
-  - [Basic of Typescript](basic/typescript.md)
-  - [Basic of Wechaty](basic/basic-wechaty.md)
-  - [Seven-Lines Code Chatbot](basic/seven-lines-code-chatbot.md)
-  - [Ding-Dong Chatbot](basic/ding-dong-bot.md)
+  - [TypeScript基础](basic/typescript.md)
+  - [Wechaty基础](basic/basic-wechaty.md)
+  - [七行代码机器人](basic/seven-lines-code-chatbot.md)
+  - [叮咚机器人](basic/ding-dong-bot.md)
+  - [深入了解Wechaty](basic/dive-into-wechaty.md)
 - **应用篇**
   - [Words Per Day](applications/1.words-per-day.md)
   - [Contact and Room Management](applications/2.contact-and-room-management.md)
