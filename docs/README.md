@@ -8,7 +8,7 @@ sidebar_label: 目录
 
 - **前言**
   - [机器人的前世今生](#11-i-can-not-login-with-my-wechat-account)
-  - [未来的人际交互](#a)
+  - [未来的人机交互](#a)
 - **基础**
   - [TypeScript基础](basic/typescript.md)
   - [Wechaty基础](basic/basic-wechaty.md)
