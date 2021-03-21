@@ -7,8 +7,8 @@ sidebar_label: 目录
 ## Table of Contents
 
 - **前言**
-  - [聊天机器人介绍](#11-i-can-not-login-with-my-wechat-account)
-  - [聊天机器人的介绍](#a)
+  - [机器人的前世今生](#11-i-can-not-login-with-my-wechat-account)
+  - [未来的人际交互](#a)
 - **基础**
   - [TypeScript基础](basic/typescript.md)
   - [Wechaty基础](basic/basic-wechaty.md)
