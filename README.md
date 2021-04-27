@@ -136,24 +136,24 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 - SMS
 - Twitter
 
-### 部署篇
+### 四、部署篇
 - npm start
 - Docker
 - Heroku
 - Chatie.io Cloud Service
 
-### AI ML篇
+### 五、AI ML篇
 
 - 案例：腾讯对话机器人
 - 案例：基于Tensorflow的Bert-QA机器人
 - 案例：微软QnaMaker聊天机器人
 - 案例：Rasa聊天机器人
 
-### 开源社区
+### 六、开源社区
 - 开源这件事
 - Wechaty 开源社区	
 
-### 附录
+### 七、附录
 - 对话平台
 - DialogFlow
 - LUIS
