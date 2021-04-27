@@ -108,3 +108,4 @@ yarn.lock
 
 .docusaurus/
 build/
+.vscode/

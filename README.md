@@ -160,3 +160,8 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 - 阿里小蜜
 - 百度Unit
 ...
+
+## Copyright & License
+Docs © 2021-now wj-Mcat and Wechaty Community
+Code released under the Apache-2.0 License
+Docs released under Creative Commons
