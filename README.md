@@ -80,71 +80,83 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 - 搜索好友
 - 修改好友备注
 
+#### 群聊管理
+- 创建群聊
+- 入群欢迎语
+- 搜索群成员
+- 修改群成员备注
+- 删除群聊
+- 发布群公告
+- 
+#### 案例：群聊助手机器人
 
-群聊管理
-创建群聊
-入群欢迎语
-搜索群成员
-修改群成员备注
-删除群聊
-发布群公告
-案例：群聊助手机器人
-投票踢人
-入群欢迎
-警告成员消息
-群活动提醒
-案例：群聊知识问答机器人
-功能分析
-数据准备
-问答逻辑处理
-进阶篇
-进阶篇（5-10 知识点的覆盖）
-多插件
-什么是插件
-如何在wechaty中使用插件
-如何自定义插件
-【从contrib里面介绍】
-案例：自动拉人入群插件
-案例：腾讯对话机器人
-多语言
-Python Wechaty
-7 行代码机器人
-Go Wechaty
-7行代码机器人
-Java Wechaty
-Scala Wechaty
-PHP Wechaty
-多平台 Puppet 
-钉钉
-飞书
-微信
-个人号
-微信公众号
-企业微信
-Gitter
-GitHub
-Mail
-SMS
-Twitter
+- 投票踢人
+- 入群欢迎
+- 警告成员消息
+- 群活动提醒
 
+#### 案例：群聊知识问答机器人
 
-部署篇
-npm start
-Docker
-Heroku
-Chatie.io Cloud Service
-AI ML篇
-案例：腾讯对话机器人
-案例：基于Tensorflow的Bert-QA机器人
-案例：微软QnaMaker聊天机器人
-案例：Rasa聊天机器人
-开源社区
-开源这件事
-Wechaty 开源社区	
-附录
-对话平台
-DialogFlow
-LUIS
-阿里小蜜
-百度Unit
+- 功能分析
+- 数据准备
+- 问答逻辑处理
+
+### 三、进阶篇
+
+> 进阶篇（5-10 知识点的覆盖）
+
+#### 多插件
+
+- 什么是插件
+- 如何在wechaty中使用插件
+- 如何自定义插件【从contrib里面介绍】
+  
+#### 案例：自动拉人入群插件
+#### 案例：腾讯对话机器人
+
+#### 多语言
+
+- Python Wechaty
+- 7 行代码机器人
+- Go Wechaty
+- 7行代码机器人
+- Java Wechaty
+- Scala Wechaty
+- PHP Wechaty
+- 多平台 Puppet 
+- 钉钉
+- 飞书
+- 微信
+- 个人号
+- 微信公众号
+- 企业微信
+- Gitter
+- GitHub
+- Mail
+- SMS
+- Twitter
+
+### 部署篇
+- npm start
+- Docker
+- Heroku
+- Chatie.io Cloud Service
+
+### AI ML篇
+
+- 案例：腾讯对话机器人
+- 案例：基于Tensorflow的Bert-QA机器人
+- 案例：微软QnaMaker聊天机器人
+- 案例：Rasa聊天机器人
+
+### 开源社区
+- 开源这件事
+- Wechaty 开源社区	
+
+### 附录
+- 对话平台
+- DialogFlow
+- LUIS
+- 阿里小蜜
+- 百度Unit
 ...
