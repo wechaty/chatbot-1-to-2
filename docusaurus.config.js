@@ -26,7 +26,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/chatbot-1-to-2/',
+          to: 'docs/',
           activeBasePath: 'docs',
           label: 'Chapters',
           position: 'right',

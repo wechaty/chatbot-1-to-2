@@ -1,5 +1,5 @@
 ---
-slug: /chatbot-1-to-2/
+slug: /
 title: Chatbot 1 to 2
 sidebar_label: 目录
 ---
