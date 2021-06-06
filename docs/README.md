@@ -7,11 +7,15 @@ sidebar_label: 目录
 ## Table of Contents
 
 - **前言**
-  - [机器人的前世今生](#11-i-can-not-login-with-my-wechat-account)
-  - [未来的人机交互](#a)
-- **基础**
+  - [机器人的前世今生](introduction.md)
+  - [未来的人机交互](robot-in-future.md)
+- **Wechaty 原理及特性**
+  - [Wechaty 是什么](basic/what-is-wechaty.md)
+  - [关于对话式 RPA](basic/what-is-rpa.md)
+  - [关于Chatbot](basic/things-about-chatbot.md)
+  - [Wechaty 整体架构](basic/wechaty-structure.md)
+  - [Wechaty 基本结构](basic/)
   - [TypeScript基础](basic/typescript.md)
-  - [Wechaty基础](basic/basic-wechaty.md)
   - [七行代码机器人](basic/seven-lines-code-chatbot.md)
   - [叮咚机器人](basic/ding-dong-bot.md)
   - [深入了解Wechaty](basic/dive-into-wechaty.md)

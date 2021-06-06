@@ -1,6 +1,6 @@
 ---
-title: wechaty 基础
-sidebar_label: Wechaty 基础
+title: Wechaty 整体架构
+sidebar_label: Wechaty 整体架构
 ---
 
 :::tip 本章知识点

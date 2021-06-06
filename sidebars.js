@@ -1,15 +1,31 @@
 module.exports = {
   docs: [
-    'README',
     {
       type: 'category',
-      label: '基础篇',
+      label: '前言',
       items: [
-        'basic/typescript',
-        'basic/basic-wechaty',
-        'basic/seven-lines-code-chatbot',
-        'basic/ding-dong-bot',
-        'basic/dive-into-wechaty',
+        'introduction',
+        'robot-in-future'
+      ]
+    },
+    {
+      type: 'category',
+      label: 'Part 1 Wechaty 原理及特性',
+      items: [
+        'basic/what-is-wechaty',
+        'basic/what-is-rpa',
+        'basic/things-about-chatbot',
+        'basic/wechaty-structure',
+        'basic/wechaty-modules',
+        'basic/wechaty-puppets',
+        'basic/wechaty-polyglot'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Part 2 实战：你的第一行 Chabot 代码',
+      items: [
+        'first-code/README.md',
       ],
     },
     {
