@@ -21,13 +21,13 @@ module.exports = {
     navbar: {
       title: 'Chapters of Chatbot 1 to 2',
       logo: {
-        alt: 'cahtbot logo',
+        alt: 'chatbot logo',
         src: 'img/logo.svg',
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
+          to: 'introduction/',
+          activeBasePath: 'introduction',
           label: 'Chapters',
           position: 'right',
         },

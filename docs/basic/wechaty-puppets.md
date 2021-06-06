@@ -1,7 +1,6 @@
 ---
-slug: /puppet/
-title: wechaty-puppet
-sidebar_label: wechaty-puppet
+title: Wechaty Puppet 平台种类
+sidebar_label: Wechaty Puppet 平台种类
 ---
 
 ## 什么是Wechaty-Puppet
